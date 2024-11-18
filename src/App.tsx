@@ -5,8 +5,8 @@ import "./App.css";
 
 function App() {
   return (
-    <Container maxWidth="lg">
-      <Grid container spacing={2} mb={8}>
+    <Container maxWidth="lg" sx={{ py: "24px" }}>
+      <Grid container spacing={2} mb={4}>
         <Grid xs={12}>
           <Typography variant="h4">📖 Book List 📚</Typography>
         </Grid>
